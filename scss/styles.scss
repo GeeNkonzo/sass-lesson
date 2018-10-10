@@ -1,31 +1,9 @@
-// Defining variables for sass
 
-// One line comments
+// =================
+// Global imports
+// ====================
 
-/* this is a multi-line 
-comment*/
-
-/* VARIABLES */
-
-// defined using a dollar sign
-
-$primary-color:#bada55;
-$font-size1: 3.125em;
-$font-size2: 2.125em;
-$text-color:#f0f;
-
-
-/* BASE STYLES */
-
-body{
-    background-color: $primary-color;
-
-    h1{
-        font-size: $font-size1;
-    }
-
-    p{
-        font-size: $font-size2;
-        color:$text-color;
-    }
-}
+@import 'partials/variables';
+@import 'partials/base';
+@import 'partials/components';
+@import 'partials/responsive';

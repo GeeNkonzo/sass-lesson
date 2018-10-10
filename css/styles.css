@@ -1,7 +1,5 @@
-/* this is a multi-line 
-comment*/
-/* VARIABLES */
-/* BASE STYLES */
+@import url("https://fonts.googleapis.com/css?family=KoHo");
+/*base styles*/
 body {
   background-color: #bada55; }
   body h1 {
