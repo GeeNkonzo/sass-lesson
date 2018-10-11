@@ -2,14 +2,15 @@
 
 body{
     background-color: $primary-color;
-    
+    font-family: $font;
+    margin: 0;
 
     h1{
         font-size: $font-size1;
     }
 
     p{
-        font-size: $font-size2;
+        // font-size: $font-size2;
         color:$text-color;
     }
 }
